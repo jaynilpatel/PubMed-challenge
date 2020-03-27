@@ -3,15 +3,18 @@
  */
 .ncbi-navbar {
     overflow: hidden;
-    background-color: #4186F5 !important;
+    background-color: #336699 !important;
     width: 100%;
     position: sticky;
     top: 0;
     z-index: 999;
 }
-
+.ncbi-nav-elements-container{
+    padding-top: 8px;
+}
 .ncbi-brand-title {
     font-size: 30px !important;
+    font-weight: 800;
     padding-left: 10px;
     color: #fff;
 
@@ -30,7 +33,7 @@
     border: 1px solid #fff;
     font-size: 18px;
     color: #515A5A;
-    margin-top: 10px;
+    margin-top: 2px;
     border-radius: 5px;
 }
 .ncbi-nav-select-option{
@@ -65,14 +68,14 @@
 
 
 
-.ncbi-add-course{
+.ncbi-search-btn{
     font-size: 25px !important;
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    background-color: #4186F5;
+    background-color: #336699;
     color: #fff;
-    border:1px solid #DFE2E3;
+    border:1.5px solid #ffffff;
 }
 
 /*
@@ -81,17 +84,68 @@
 .ncbi-search-body{
     margin-top: 10px;
 }
+.ncbi-select-option{
+    background-color: transparent;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
+
 
 /*
     Advanced Search
 */
 .ncbi-advanced-search-panel{
-    height: 100%;
+    height: 650px;
 }
+
+.ncbi-banner-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #707B7C;
+}
+.ncbi-quick-filter{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 13px;
+}
+.ncbi-quick-filter li{
+    color: dodgerblue;
+}
+.ncbi-quick-filter li:hover{
+    cursor: pointer;
+    color: #1A5276;
+}
+.ncbi-advanced-search-form-body{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.ncbi-advanced-search-form-body input{
+    font-size: 12px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
+.ncbi-advanced-search-form-body label{
+    margin: 5px 0;
+}
+
 
 /*
     Search Results
 */
+.ncbi-search-count{
+    font-size: 14px;
+    color: #707B7C;
+    font-weight: bolder;
+    max-width: 50%;
+}
+.ncbi-item-count{
+    font-size: 14px;
+    color: #707B7C;
+    font-weight: bolder;
+}
+
 .ncbi-search-result-panel{
     border-left: 1px solid lightgray;
 }
@@ -105,8 +159,20 @@
     display:inline;
     padding-inline-start: 0;
 }
+
+.ncbi-pageno-form{
+    position: fixed;
+    right:    15px;
+    bottom:   15px;
+    z-index: 999;
+    font-size: 12.5px;
+    color: #616A6B;
+}
+
 .ncbi-page-input{
-    width: 50px
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid #515A5A;
 }
 
 .ncbi-search-item{
@@ -115,8 +181,22 @@
 .ncbi-search-item-title{
     font-size: 20px;
 }
-.ncbi-search-item-author, .ncbi-search-item-date{
+.ncbi-search-item-author{
     font-size: 14px;
+    color: #515A5A;
+    font-weight: bolder;
+}
+
+.ncbi-search-item-date{
+    font-size: 14px;
+    color:  #5F6A6A;
+}
+
+.loading{
+    width: auto;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
