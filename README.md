@@ -1,8 +1,9 @@
 # PubMed-challenge
 
-## Download npm / Node.js
+## Download npm (v3.5+) / Node.js (v8.10+)
 
-Get npm/node: https://www.npmjs.com/get-npm
+Get npm/node.js from: https://www.npmjs.com/get-npm
+
 
 ## Install dependencies and start web app
 
