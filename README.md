@@ -13,7 +13,7 @@ Key features implemented:
   - Last Author
   - Article Title (as a live link to the pubmed entry, e.g. https://www.ncbi.nlm.nih.gov/pubmed/20008181)
 - Sortable columns (Relavance, First Author, Publication date)
-- Paging of large result test
+- Paging of large result set
 - User specified date range
 - Abstract displayed in popup when mouse hovers over headline
 - Search keywords highlighted in the results 
@@ -32,4 +32,4 @@ $ npm install
 $ npm start
 ```
 
-The project will build and kickoff a Node.js server to host the React.js Web application. A browser window will automatically open in your default browser pointing to http://localhost:3000.
+The project will build and kickoff a Node.js server to host the React.js web application. A browser window will automatically open in your default browser pointing to http://localhost:3000.
